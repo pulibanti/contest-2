@@ -1,0 +1,125 @@
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 10px, 20px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+nav > h1 {
+  color: white;
+}
+nav > div {
+  width: 80%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+nav input,
+nav button {
+  background-color: rgba(38, 38, 38, 1);
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+nav input {
+  flex-grow: 1;
+  color: rgba(255, 255, 255, 0.2);
+}
+nav button {
+  color: white;
+}
+.small-image {
+  width: 50px;
+}
+.large-image {
+  width: 120px;
+  height: 120px;
+}
+.header-section {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  margin: 20px 50px;
+  border-radius: 10px;
+}
+.header-left > .item {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  align-items: center;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header-button {
+  background-color: #fecb03;
+  color: rgba(38, 38, 38, 1);
+  border-radius: 20px;
+  padding: 10px;
+
+  font-size: 20px;
+  align-self: center;
+}
+.categories-section {
+  margin: 20px 50px;
+}
+.cards-container {
+  margin-top: 20px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.card {
+  width: 25%;
+  background: #1f1f1f;
+  border: 1px solid #262626;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 30px;
+}
+.card > h3 {
+  font-size: 15px;
+}
+.card > p {
+  font-size: 10px;
+  margin: 7px;
+  margin-bottom: 7px;
+}
+.card > button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: #fecb03;
+  color: black;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+footer {
+  margin: 20px 50px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #262626;
+  border-radius: 20px;
+  padding: 20px;
+}
+footer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+footer > div > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+footer > div > p {
+  color: rgba(255, 255, 255, 0.8);
+}
